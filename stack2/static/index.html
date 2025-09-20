@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chat — Demo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="card panel-left">
+      <div class="brand">
+        <div class="logo">RT</div>
+        <div>
+          <h1>Chat en la casa mor</h1>
+          <p class="lead">Demo simple de chat en tiempo real usando WebSockets y Python.</p>
+        </div>
+      </div>
+
+      <div class="login-box" id="login">
+        <input id="username" class="input" placeholder="Tu nombre (ej. María)" />
+        <div style="display:flex; gap:8px; margin-top:8px;">
+          <button id="btnLogin" class="btn">Entrar</button>
+          <button id="btnDemo" class="btn secondary">Entrar como demo</button>
+        </div>
+
+        <div style="margin-top:12px; font-size:13px; color:var(--muted);">
+          NOTA: Esta demo guarda la sesión en memoria; no uses en producción.
+        </div>
+      </div>
+
+      <div class="meta">Made with ♥ • Local demo • Presiona F12 para consola</div>
+    </aside>
+
+    <main class="card chat-wrapper">
+      <header class="chat-top">
+        <div>
+          <div class="channel-title">Canal público</div>
+          <div class="status"><div id="statusDot" class="status-dot"></div><div id="statusText">desconectado</div></div>
+        </div>
+        <div class="right-meta">
+          <div id="meName">—</div>
+          <div id="connCount">Conexiones: 0</div>
+        </div>
+      </header>
+
+      <section id="messages" class="messages" aria-live="polite"></section>
+
+      <div class="composer">
+        <input id="text" placeholder="Escribe tu mensaje..." />
+        <button id="send">Enviar</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="/static/client.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chat en tiempo real mor</h1>
+        </header>
+        
+        <div class="connection-info">
+            <div>
+                Estado: <span id="status" class="status disconnected">Desconectado</span>
+            </div>
+            <div id="connectionDetails">
+                Intentando conectar...
+            </div>
+        </div>
+        
+        <div class="chat-container" id="chatContainer">
+            <div class="message system">
+                Bienvenido al chat. Conectando al servidor...
+            </div>
+        </div>
+        
+        <div class="users-online">
+            <span>Usuarios en línea: <span id="usersCount">0</span></span>
+            <span id="serverInfo">Servidor: ws://localhost:8765</span>
+        </div>
+        
+        <div class="input-area">
+            <input type="text" id="username" placeholder="Tu nombre" value="Usuario">
+            <input type="text" id="messageInput" placeholder="Escribe tu mensaje..." disabled>
+            <button id="sendButton" disabled>Enviar</button>
+        </div>
+    </div>
+
+    <div class="connection-help">
+        <h3>¿Cómo conectar desde otros dispositivos?</h3>
+        <p><strong>Desde la misma red:</strong> Usa la IP local del servidor (ej: http://192.168.1.100:8000/static/index.html)</p>
+        <p><strong>Desde Internet:</strong> Necesitas configurar reenvío de puertos en tu router y usar tu IP pública</p>
+    </div>
+
+    <script src="/static/client.js" defer></script>
+</body>
+</html>
