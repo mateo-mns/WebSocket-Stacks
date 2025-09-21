@@ -11,23 +11,6 @@ Este proyecto implementa un sistema de chat en tiempo real utilizando WebSockets
 - Soporte para acceso local y remoto
 - Reconexión automática
 
-## 📁 Estructura del Proyecto
-WebSocket-Stacks/
-├── stack1/ # Primera implementación
-│ ├── server_websocket.py # Servidor WebSocket principal
-│ ├── server_http.py # Servidor HTTP para el cliente
-│ ├── client.html # Interfaz de usuario web
-│ └── requirements.txt # Dependencias de Python
-├── stack2/ # Segunda implementación
-│ ├── server.py # Servidor único con aiohttp (HTTP + WebSocket)
-│ ├── static/ # Archivos estáticos
-│ │ ├── index.html # Interfaz de usuario
-│ │ ├── client.js # Cliente JavaScript
-│ │ └── styles.css # Estilos CSS
-│ └── requirements.txt # Dependencias de Python
-└── README.md
-
-
 ## 🛠️ Stack 1
 
 ### Tecnologías utilizadas
