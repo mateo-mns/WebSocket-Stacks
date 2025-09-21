@@ -17,7 +17,7 @@ Este proyecto implementa un sistema de chat en tiempo real utilizando WebSockets
 
 ## 🛠️ Stack 1
 
-![Stack](<img width="3722" height="3840" alt="stack1" src="https://github.com/user-attachments/assets/fa05912d-eef8-47fe-ac59-95e46ffe6ca2" />)
+<img width="3722" height="3840" alt="stack1" src="https://github.com/user-attachments/assets/fa05912d-eef8-47fe-ac59-95e46ffe6ca2" />
 
 ### Tecnologías utilizadas
 - **Backend**: Python 3.7+, asyncio, websockets
@@ -45,7 +45,7 @@ Este proyecto implementa un sistema de chat en tiempo real utilizando WebSockets
 
 ## 🛠️ Stack 2
 
-![Stack](<img width="2011" height="3840" alt="stack2" src="https://github.com/user-attachments/assets/0a0422a5-6e13-4e1f-a610-4e1c280a9248" />)
+<img width="2011" height="3840" alt="stack2" src="https://github.com/user-attachments/assets/0a0422a5-6e13-4e1f-a610-4e1c280a9248" />
 
 ### Tecnologías utilizadas
 - **Backend**: Python 3.7+, aiohttp, asyncio
