@@ -13,6 +13,8 @@ Este proyecto implementa un sistema de chat en tiempo real utilizando WebSockets
 
 ## 🛠️ Stack 1
 
+![Stack](distri-ws/stack1/img/stack1.png)
+
 ### Tecnologías utilizadas
 - **Backend**: Python 3.7+, asyncio, websockets
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
@@ -38,6 +40,8 @@ Este proyecto implementa un sistema de chat en tiempo real utilizando WebSockets
 
 
 ## 🛠️ Stack 2
+
+![Stack](distri-ws/stack2/img/stack2.png)
 
 ### Tecnologías utilizadas
 - **Backend**: Python 3.7+, aiohttp, asyncio
