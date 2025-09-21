@@ -2,8 +2,7 @@ import http.server
 import socketserver
 import webbrowser
 import socket
-import threading
-import time
+
 
 class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
