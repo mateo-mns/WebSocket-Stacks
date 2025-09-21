@@ -31,7 +31,7 @@ Este proyecto implementa un sistema de chat en tiempo real utilizando WebSockets
    cd stack1
    pip install -r requirements.txt
 
-**Ejecucion**
+**Ejecución**
 - Ejecuta el servidor WebSocket --> python server_websocket.py
 - Ejecuta el servidor HTTP en otra terminal --> python server_http.py
 - Ejecuta el cliente en tu navegador --> http://localhost:8000/client.html
@@ -58,7 +58,7 @@ Este proyecto implementa un sistema de chat en tiempo real utilizando WebSockets
    cd stack2
    pip install -r requirements.txt
 
-**Ejecucion**
+**Ejecución**
 - Ejecuta el servidor --> python server.py
 - Ejecuta el cliente en tu navegador --> http://localhost:8080
 
